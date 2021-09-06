@@ -1,1 +1,19 @@
-/* styles go here */
+.fieldset_distance {
+  margin: 20px 2px;
+}
+
+.fieldset__first {
+  margin-top: 0;
+}
+
+.form-field {
+  margin: 10px 0;
+}
+
+.input__first {
+  margin-top: 0;
+}
+
+.input__last {
+  margin-bottom: 0;
+}
