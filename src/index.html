@@ -12,8 +12,11 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="POST" onsubmit="onSubmit()">
+    <form
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    method="POST"
+    onsubmit="onSubmit()"
+    >
       <fieldset class="fieldset_distance fieldset__first">
         <legend>
           Personal information
@@ -24,7 +27,9 @@
             Surname:
           </label>
 
-          <input type="text" id="surname"
+          <input
+            type="text"
+            id="surname"
             required
           >
         </div>
@@ -34,7 +39,9 @@
             Name:
           </label>
 
-          <input type="text" id="name"
+          <input
+            type="text"
+            id="name"
             required
           >
         </div>
@@ -44,9 +51,13 @@
             How old are You?
           </label>
 
-          <input type="number" value="12"
-            min="12" max="100"
-            id="old" required
+          <input
+            type="number"
+            value="12"
+            min="12"
+            max="100"
+            id="old"
+            required
           >
         </div>
 
@@ -55,7 +66,9 @@
             Full date of birth:
           </label>
 
-          <input type="date" id="date"
+          <input
+            type="date"
+            id="date"
             required
           >
         </div>
@@ -65,7 +78,9 @@
             I accept the term of the agreement
           </label>
 
-          <input type="checkbox" id="terms"
+          <input
+            type="checkbox"
+            id="terms"
             required
           >
         </div>
@@ -81,8 +96,11 @@
             E-mail:
           </label>
 
-          <input type="email" placeholder="email@example.com"
-            id="email" required
+          <input
+            type="email"
+            placeholder="email@example.com"
+            id="email"
+            required
           >
         </div>
 
@@ -91,8 +109,11 @@
             Password:
           </label>
 
-          <input type="password" id="pass"
-            minlength="8" required
+          <input
+            type="password"
+            id="pass"
+            minlength="8"
+            required
           >
         </div>
       </fieldset>
@@ -107,11 +128,16 @@
             Do you love cats?
           </label>
 
-          <input type="radio" name="loveCats"
-            value="yes" id="loveCats"
+          <input
+            type="radio"
+            name="loveCats"
+            value="yes"
+            id="loveCats"
           >
           Yes
-          <input type="radio" name="loveCats"
+          <input
+            type="radio"
+            name="loveCats"
             value="no"
           >
           No
@@ -121,7 +147,6 @@
           <label for="colorChoose">
             What is your favorite color?
           </label>
-
           <input type="color" id="colorChoose">
         </div>
 
@@ -129,7 +154,6 @@
           <label for="timeToBed">
             What time do you go to bed?
           </label>
-
           <input type="time" id="timeToBed">
         </div>
 
@@ -138,7 +162,9 @@
             What are your favorite brand of cars?
           </label>
 
-          <select name="favoriteBrand" id="favoriteBrand"
+          <select
+            name="favoriteBrand"
+            id="favoriteBrand"
             multiple
           >
             <option value="BMW">
@@ -160,7 +186,9 @@
             How do you rate our work?
           </label>
 
-          <input type="range" id="rateWork"
+          <input
+            type="range"
+            id="rateWork"
             value="0"
           >
         </div>
@@ -175,9 +203,7 @@
           <label for="comments">
             Comments:
           </label>
-
-          <textarea id="comments">
-          </textarea>
+          <textarea id="comments"></textarea>
         </div>
 
         <div class="form-field input__last">
@@ -196,9 +222,11 @@
           </select>
         </div>
       </fieldset>
+
       <button type="submit">
         Submit
       </button>
+
     </form>
   </body>
 </html>
