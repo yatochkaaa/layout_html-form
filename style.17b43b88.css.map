@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,mBACE,eACF,CAEA,iBACE,YACF,CAEA,YACE,kBACF,CAEA,aACE,eACF","file":"style.17b43b88.css","sourceRoot":"..\\src","sourcesContent":[".fieldset_distance {\n  margin: 20px 2px;\n}\n\n.fieldset__first {\n  margin-top: 0;\n}\n\n.form-field {\n  margin-bottom: 10px;\n}\n\n.input__last {\n  margin-bottom: 0;\n}\n"]}
